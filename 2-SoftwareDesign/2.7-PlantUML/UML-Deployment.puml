@@ -1,0 +1,19 @@
+@startuml uml2
+
+title Deployment for information System
+left to right direction
+
+node "<< Смартфон >>" as sm {
+	node "<< ОС Android >>" {
+	       node "<< Веб-навігатор >>" {
+                       component [~*.apk\n(Angdroid Studio)]
+               }
+	}
+}
+
+interface Touch_screen
+interface Microphone
+Touch_screen  -- sm
+Microphone -- sm
+
+@enduml
