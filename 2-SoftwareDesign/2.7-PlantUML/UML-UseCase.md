@@ -1,1 +1,1 @@
-![](html://www.plantuml.com/plantuml/png/hP0nIiH058RxESLZqsWHOIqjP171na8GEviX-uZ1P8JCf10HN2syWPRg3LP5ZT6DL_ZdHluRiR4saEAz-VW-PYO-s3eqLMb24KgL0wzui5wt2vlNjZ8s2oUrZ72F7e_n9bvYWHPT6cVuukgLmnFcyNearWjXINPgLMTChLcmBgTo_zG7hUJC2B_6QqQzhE0kNg3dJozQUbj1n-6JtW-ye8kpGpSSlx50W9ihONPEf1_Y3ECPxIhJI-zOajqYFmfRPQD_MhTOa7t_Zygw97k5EpP3ONdXD1tYlyMnh6t-S1jIkAnifchEpKJTb8_y3G00)
+![](https://raw.githubusercontent.com/oleksandrblazhko/ai202-kovach/ai202-kovach_with_laboratory_work_7/2-SoftwareDesign/2.7-PlantUML/UML-UseCase.puml)
