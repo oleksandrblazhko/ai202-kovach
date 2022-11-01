@@ -6,7 +6,7 @@ left to right direction
 node "<< Смартфон >>" as sm {
 	node "<< ОС Android >>" {
 	       node "<< Веб-навігатор >>" {
-                       component [~*.apk\n(Angdroid Studio)]
+                       component [~*.apk\n(Android Studio)]
                }
 	}
 }
