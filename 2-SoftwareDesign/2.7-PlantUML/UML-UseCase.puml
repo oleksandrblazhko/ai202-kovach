@@ -1,0 +1,12 @@
+@startuml
+title UseСaseDiagram
+actor "Робітник-споживач" as act #Green
+
+rectangle System {
+    usecase (Проробити комплекс\nрозвитку самоповаги) as use1 #LightBlue
+    usecase (Знайти комплекс\nрозвитку самоповаги) as use2 #Pink
+
+    act -- use1
+    use1 .> use2 : include
+}
+@enduml

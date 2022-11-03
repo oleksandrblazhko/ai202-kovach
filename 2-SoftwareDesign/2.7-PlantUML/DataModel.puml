@@ -1,0 +1,36 @@
+@startuml
+title Entity Relation Schema
+hide graph
+entity "User" as us {
+  (PK)user_id
+  --
+  username
+  email
+  proto_user
+}
+
+entity "Self_esteem_development_program" as ua {
+  (PK)s_f_program_id
+  --
+  name_s_f_prog
+	description
+	link_
+  (FK)user_id
+}
+
+entity "Poetic_literature" as ia {
+  (PK)poetic_literature_id
+  --
+  name_poe_lit
+  genre
+  author
+  rating
+  description
+  link_ 
+  (FK)user_id
+}
+
+us --{ ua
+us --{ ia
+
+@enduml
